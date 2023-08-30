@@ -24,10 +24,26 @@
 
 .result-side {
   width: 100%;
-  border-radius: 20px;
-  background-image: linear-gradient(to bottom, var(--lightslateblue), var(--lightroyalblue));
-  
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-image: linear-gradient(to bottom, var(--lightslateblue) 15%, var(--lightroyalblue));
+  min-height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
+
+.title {
+  font-size: 16px;
+  font-weight: 900;
+  color: var(--lightlavender);
+}
+
+
+
+
 
 
 
