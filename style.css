@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
   box-sizing: border-box;
@@ -24,28 +24,33 @@
 
 .result-side {
   width: 100%;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  background-image: linear-gradient(to bottom, var(--lightslateblue) 10%, var(--lightroyalblue) 90%);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-image: linear-gradient(to bottom, var(--lightslateblue) 5%, var(--lightroyalblue));
   min-height: 38vh;
   text-align: center;
-  padding: 20px 50px 25px 50px;
+  padding: 20px 50px 25px 50px; 
 }
 
 #title {
-  font-size: 1.063rem;
-  font-weight: bold;
+  font-size: 1.125rem;
+  font-weight: 600;
   color: var(--lightlavender);
 }
 
 #total-score {
-  margin-top: 20px;
+  margin: 25px auto;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--lightlavender);
   border-radius: 50%;
-  width: 100%;
-  min-height: 28vh;
-  display: grid;
-  place-content: center;
-  background-image: linear-gradient(to bottom, var(--violetblue), var(--cobaltblue));
+  max-width: 36%;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(var(--violetblue) 5%, hsla(244, 100%, 50%, 0));
 }
 
 
