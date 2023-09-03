@@ -56,18 +56,22 @@
 
 .summary-side {
   padding: 25px;
+  font-size: 15px;
+  color: var(--darkgreyblue);
 }
 
 .summary-side .score {
-  padding: 15px;
+  padding: 18px;
   font-weight: 700;
-  border: 1px solid;
   border-radius: 10px;
-  margin: 15px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.reaction {
+.summary-side .reaction {
   color: var(--lightred);
+  margin-top: 23px;
+  background-color: hsla(0, 86%, 81%, 0.1)
 }
 
 
