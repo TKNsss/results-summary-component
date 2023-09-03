@@ -26,31 +26,32 @@
   width: 100%;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
-  background-image: linear-gradient(to bottom, var(--lightslateblue), var(--lightroyalblue));
+  background-image: linear-gradient(var(--lightslateblue) .1%, var(--lightroyalblue));
   min-height: 20vh;
   text-align: center;
   padding: 20px 50px 25px 50px; 
 }
 
 #title {
-  font-size: 1.125rem;
-  font-weight: 600;
+  font-size: 1.063rem;
+  font-weight: 700;
   color: var(--lightlavender);
+  margin-top: -7px;
 }
 
 #total-score {
-  margin: 25px auto;
+  margin: 23px auto;
   font-size: 1rem;
   font-weight: 600;
   color: var(--lightlavender);
   border-radius: 50%;
-  max-width: 45%;
-  min-height: 20vh;
+  max-width: 48%;
+  min-height: 26vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(var(--violetblue), var(--persianblue));
+  background-image: linear-gradient(to bottom, var(--violetblue), var(--persianblue));
 }
 
 .summary-side {
