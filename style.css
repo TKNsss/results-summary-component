@@ -26,7 +26,7 @@
   width: 100%;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
-  background-image: linear-gradient(to bottom, var(--lightslateblue) 5%, var(--lightroyalblue));
+  background-image: linear-gradient(to bottom, var(--lightslateblue), var(--lightroyalblue));
   min-height: 38vh;
   text-align: center;
   padding: 20px 50px 25px 50px; 
@@ -50,7 +50,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(var(--violetblue) 5%, hsla(244, 100%, 50%, 0));
+  background-image: linear-gradient(var(--violetblue), var(--persianblue));
 }
 
 
