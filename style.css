@@ -27,7 +27,7 @@
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   background-image: linear-gradient(to bottom, var(--lightslateblue), var(--lightroyalblue));
-  min-height: 38vh;
+  min-height: 35vh;
   text-align: center;
   padding: 20px 50px 25px 50px; 
 }
@@ -51,6 +51,22 @@
   align-items: center;
   flex-direction: column;
   background-image: linear-gradient(var(--violetblue), var(--persianblue));
+}
+
+.summary-side {
+  padding: 25px;
+}
+
+.summary-side .score {
+  padding: 15px;
+  font-weight: 700;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.reaction {
+  color: var(--lightred);
 }
 
 
