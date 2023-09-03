@@ -27,7 +27,7 @@
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   background-image: linear-gradient(to bottom, var(--lightslateblue), var(--lightroyalblue));
-  min-height: 35vh;
+  min-height: 20vh;
   text-align: center;
   padding: 20px 50px 25px 50px; 
 }
@@ -44,7 +44,7 @@
   font-weight: 600;
   color: var(--lightlavender);
   border-radius: 50%;
-  max-width: 36%;
+  max-width: 45%;
   min-height: 20vh;
   display: flex;
   justify-content: center;
