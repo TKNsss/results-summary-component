@@ -60,7 +60,11 @@
   color: var(--darkgreyblue);
 }
 
-.summary-side .score {
+ul {
+  list-style: none;
+}
+
+li {
   padding: 18px;
   font-weight: 700;
   border-radius: 10px;
@@ -68,7 +72,7 @@
   margin-bottom: 16px;
 }
 
-.summary-side .reaction {
+.reaction {
   color: var(--lightred);
   margin-top: 23px;
   background-color: hsla(0, 86%, 81%, 0.1)
