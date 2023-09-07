@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700;800;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -55,29 +55,52 @@
 }
 
 .summary-side {
-  padding: 25px;
-  font-size: 15px;
+  padding: 25px 30px 25px 30px;
+  font-size: 1rem;
   color: var(--darkgreyblue);
 }
 
-ul {
-  list-style: none;
+.summary-side h3 {
+  font-weight: 800;
 }
 
-li {
-  padding: 18px;
-  font-weight: 700;
+.summary-side ul {
+  list-style: none;
+  font-size: 0.938rem;
+  margin-top: 20px;
+}
+
+.summary-side ul li {
+  padding: 15px;
+  font-weight: 800;
   border-radius: 10px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
+}
+
+span.score {
+  float: right;
+  color: lightgray;
 }
 
 .reaction {
   color: var(--lightred);
-  margin-top: 23px;
-  background-color: hsla(0, 86%, 81%, 0.1)
+  background-color: hsla(0, 85%, 87%, 0.1);
 }
 
+.memory {
+  color: var(--orangeyellow);
+  background-color: hsla(45, 83%, 77%, 0.1);
+}
+
+.verbal {
+  color: var(--greenteal);
+  background-color: hsla(166, 42%, 70%, 0.1);
+}
+
+.visual {
+  color: var(--cobaltblue);
+  background-color: hsla(234, 76%, 74%, 0.1);
+}
 
 
 
