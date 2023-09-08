@@ -24,8 +24,8 @@
 
 .result-side {
   width: 100%;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   background-image: linear-gradient(var(--lightslateblue) .1%, var(--lightroyalblue));
   min-height: 20vh;
   text-align: center;
