@@ -33,20 +33,20 @@
 }
 
 #title {
-  font-size: 1.063rem;
+  font-size: 1.125rem;
   font-weight: 700;
   color: var(--lightlavender);
-  margin-top: -7px;
+  margin-top: 5px;
 }
 
 #total-score {
-  margin: 23px auto;
+  margin: 24px auto;
   font-size: 1rem;
   font-weight: 600;
   color: var(--lightlavender);
   border-radius: 50%;
   max-width: 50%;
-  min-height: 26vh;
+  min-height: 24vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,17 +84,17 @@ span.score {
 
 .reaction {
   color: var(--lightred);
-  background-color: hsla(0, 85%, 87%, 0.1);
+  background-color: hsla(0, 78%, 80%, 0.1);
 }
 
 .memory {
   color: var(--orangeyellow);
-  background-color: hsla(45, 83%, 77%, 0.1);
+  background-color: hsla(45, 85%, 76%, 0.1);
 }
 
 .verbal {
   color: var(--greenteal);
-  background-color: hsla(166, 42%, 70%, 0.1);
+  background-color: hsla(166, 46%, 70%, 0.1);
 }
 
 .visual {
