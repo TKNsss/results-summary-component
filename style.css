@@ -71,16 +71,18 @@
 }
 
 .summary-side ul li {
-  padding: 15px;
   font-weight: 800;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
-span.score {
-  float: right;
-  color: gray;
+div.section {
+  padding: 15px;
+  display: flex;
+  gap: 1rem;
 }
+
+
 
 .reaction {
   color: var(--lightred);
