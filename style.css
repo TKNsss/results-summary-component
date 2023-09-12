@@ -82,8 +82,6 @@ div.section {
   gap: 1rem;
 }
 
-
-
 .reaction {
   color: var(--lightred);
   background-color: hsla(0, 78%, 80%, 0.1);
@@ -102,6 +100,22 @@ div.section {
 .visual {
   color: var(--cobaltblue);
   background-color: hsla(234, 76%, 74%, 0.1);
+}
+
+.continue-button {
+  border: none;
+  color: var(--white);
+  background-color: var(--darkgreyblue);
+  border-radius: 25px;
+  padding: 15px 20px;
+  font-weight: 700;
+  font-size: 0.938rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
 }
 
 
