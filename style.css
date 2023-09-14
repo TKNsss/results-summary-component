@@ -78,8 +78,8 @@
 
 div.section {
   padding: 15px;
-  display: flex;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: 30px 195px auto;
 }
 
 .reaction {
@@ -100,6 +100,14 @@ div.section {
 .visual {
   color: var(--cobaltblue);
   background-color: hsla(234, 76%, 74%, 0.1);
+}
+
+div.score {
+  color: rgb(151, 149, 149);
+}
+
+.grade {
+  color: var(--darkgreyblue);
 }
 
 .continue-button {
