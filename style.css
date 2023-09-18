@@ -27,7 +27,7 @@
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   background-image: linear-gradient(var(--lightslateblue) .1%, var(--lightroyalblue));
-  min-height: 20vh;
+  min-height: 30vh;
   text-align: center;
 }
 
@@ -79,6 +79,7 @@
 }
 
 .summary-side {
+  width: 100%;
   padding: 25px 30px 25px 30px;
   font-size: 1rem;
   color: var(--darkgreyblue);
@@ -98,6 +99,7 @@
   font-weight: 800;
   border-radius: 10px;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 div.section {
@@ -155,21 +157,23 @@ button:hover {
 }
 
 @media screen and (min-width: 1440px) {
-  main {
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
   }
   
   .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    min-height: 100vh;
+    max-width: 75%;
+    margin: 75px auto;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 30px;
   }
 
   .result-side {
-    max-width: 25%;
-    min-height: 65vh;
     border-radius: 35px;
   }
 
@@ -183,7 +187,7 @@ button:hover {
     font-size: 1.25rem;
     font-weight: 600;
     border-radius: 50%;
-    max-width: 57%;
+    max-width: 60%;
     min-height: 30vh;
   }
 
@@ -192,7 +196,7 @@ button:hover {
   }
 
   #outof {
-    font-size: 1rem;
+    font-size: 1.063rem;
   }
 
   #great {
@@ -202,16 +206,13 @@ button:hover {
   }
 
   #comment {
-    font-size: 1.125rem;
-    padding: 0 70px 50px;  
+    font-size: 1.063rem;
+    padding: 0 60px 50px;  
   }
 
   .summary-side {
-    max-width: 25%;
-    min-height: 65vh;
     font-size: 1.375rem;
-    padding: 15px 35px;
-    border-radius: 30px;
+    padding: 30px 35px;
   }
 
   .summary-side ul {
@@ -225,13 +226,19 @@ button:hover {
 
   div.section {
     padding: 15px;
-    display: grid;
-    grid-template-columns: 30px 175px auto;
+    display: flex;
+    gap: 10px;
+  }
+
+  .two {
+    flex-grow: 10;
   }
 
   .continue-button {
     margin-top: 20px;
-    padding: 15px 25px;
+    padding: 18px;
+    font-size: 1.063rem;
+    border-radius: 40px;
   }
 }
 
