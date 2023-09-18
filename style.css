@@ -175,6 +175,7 @@ button:hover {
 
   .result-side {
     border-radius: 35px;
+    width: 110%;
   }
 
   #title {
@@ -200,14 +201,14 @@ button:hover {
   }
 
   #great {
-    font-size: 2rem;
+    font-size: 1.875rem;
     padding-top: 25px;
     padding-bottom: 15px;
   }
 
   #comment {
     font-size: 1.063rem;
-    padding: 0 60px 50px;  
+    padding: 0 70px 50px;  
   }
 
   .summary-side {
