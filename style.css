@@ -52,7 +52,7 @@
 }
 
 #yourscore {
-  font-size: 3.375rem;
+  font-size: 3.875rem;
   font-weight: 700;
   color: var(--white);
 }
@@ -161,30 +161,74 @@ button:hover {
     align-items: center;
     flex-direction: row;
     min-height: 100vh;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   }
 
   .result-side {
     max-width: 25%;
-    min-height: 70vh;
+    min-height: 65vh;
     border-radius: 35px;
   }
 
   #title {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
     font-weight: 600;
+    padding: 30px;
   }
 
   #total-score {
     font-size: 1.25rem;
     font-weight: 600;
     border-radius: 50%;
-    max-width: 65%;
-    min-height: 25vh;
+    max-width: 57%;
+    min-height: 30vh;
+  }
+
+  #yourscore {
+    font-size: 5rem;
+  }
+
+  #outof {
+    font-size: 1rem;
+  }
+
+  #great {
+    font-size: 2rem;
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+
+  #comment {
+    font-size: 1.125rem;
+    padding: 0 70px 50px;  
   }
 
   .summary-side {
     max-width: 25%;
-    min-height: 70vh;
+    min-height: 65vh;
+    font-size: 1.375rem;
+    padding: 15px 35px;
+    border-radius: 30px;
+  }
+
+  .summary-side ul {
+    font-size: 1.125rem;
+    margin-top: 25px;
+  }
+
+  .summary-side ul li {
+    margin-bottom: 20px;
+  }
+
+  div.section {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 30px 175px auto;
+  }
+
+  .continue-button {
+    margin-top: 20px;
+    padding: 15px 25px;
   }
 }
 
