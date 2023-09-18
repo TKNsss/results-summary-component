@@ -155,13 +155,16 @@ button:hover {
 }
 
 @media screen and (min-width: 1440px) {
+  main {
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  }
+  
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     min-height: 100vh;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   }
 
   .result-side {
