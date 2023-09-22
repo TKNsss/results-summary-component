@@ -23,7 +23,6 @@
 }
 
 .result-side {
-  width: 100%;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   background-image: linear-gradient(var(--lightslateblue) .1%, var(--lightroyalblue));
@@ -52,7 +51,7 @@
 }
 
 #yourscore {
-  font-size: 3.875rem;
+  font-size: 3.438rem;
   font-weight: 700;
   color: var(--white);
 }
@@ -75,7 +74,7 @@
   font-size: 0.938rem;
   color: var(--lightlavender);
   font-weight: 500;
-  padding: 0 50px 40px;  
+  padding: 0 50px 35px;  
 }
 
 .summary-side {
@@ -103,9 +102,13 @@
 }
 
 div.section {
-  padding: 15px;
-  display: grid;
-  grid-template-columns: 30px 195px auto;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+  }
+
+.two {
+  flex-grow: 10;
 }
 
 .reaction {
@@ -189,7 +192,7 @@ button:hover {
     font-weight: 600;
     border-radius: 50%;
     max-width: 60%;
-    min-height: 30vh;
+    min-height: 28vh;
   }
 
   #yourscore {
@@ -207,8 +210,7 @@ button:hover {
   }
 
   #comment {
-    font-size: 1.063rem;
-    padding: 0 70px 50px;  
+    font-size: 1.063rem;  
   }
 
   .summary-side {
@@ -223,16 +225,6 @@ button:hover {
 
   .summary-side ul li {
     margin-bottom: 20px;
-  }
-
-  div.section {
-    padding: 15px;
-    display: flex;
-    gap: 10px;
-  }
-
-  .two {
-    flex-grow: 10;
   }
 
   .continue-button {
